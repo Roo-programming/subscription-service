@@ -8,8 +8,8 @@ CORS(app)
 # DB 설정 (비밀번호 꼭 확인하세요!)
 db_config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'root', # 👈 비밀번호 확인!
+    'user': 'new_user',
+    'password': 'password', # 👈 비밀번호 확인!
     'db': 'subscription_service',
     'charset': 'utf8',
     'cursorclass': pymysql.cursors.DictCursor
